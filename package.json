@@ -1,0 +1,19 @@
+{
+    "name": "d3-practice",
+    "version": "1.0.0",
+    "description": "d3 练习项目",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server",
+        "build": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
