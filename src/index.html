@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./lib/d3.js"></script>
-    <script src="./js/dom-list.js"></script>
+    <script src="./js/dragdrop.js"></script>
     <style>
         ul {
             width: 300px;
@@ -21,8 +21,13 @@
     </style>
 </head>
 
-<body onload="makeList()">
+<body onload="makeDragDrop()">
     <svg id="demo1" width="600" height="300" style="background: lightgrey">
+    </svg>
+    <svg id="dragdrop" width="600" height="200">
+        <circle r="20" fill="red" cx="100" cy="100"/>
+        <circle r="20" fill="green" cx="300" cy="100"/>
+        <circle r="20" fill="blue" cx="500" cy="100"/>
     </svg>
 </body>
 
