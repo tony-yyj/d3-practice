@@ -14,5 +14,6 @@ module.exports = {
         contentBase: './src',
         overlay: true,
         quiet: true,
+        hot: true,
     }
 }
